@@ -13,12 +13,88 @@
 <body class=" w-screen h-screen overflow-x-hidden bg-[#e7e7e7] flex justify-center">
     <div class="w-full h-[15rem] bg-[url(./assets/img/Bg.svg)] bg-cover">
     </div>
-    <section class="absolute bg-slate-500 w-[90%] h-[80%] top-[6rem]">
-        <div class="flex w-full h-[5rem] bg-red-400 justify-between">
-            <h1 class="text-3xl uppercase tracking-[1rem] font-semibold">todo</h1>
+    <section class="absolute bg-slate-500 w-[90%] h-[80%] top-[6rem] md:w-[50rem]">
+        <div class="flex w-full h-[3rem] justify-between items-center">
+            <h1 class="text-3xl uppercase tracking-[1rem] font-semibold text-white">todo</h1>
             <button class="w-[40px] h-[40px]">
-                <ion-icon name="moon-sharp" class="text-white w-full h-full"></ion-icon>
+                <ion-icon name="moon-sharp" class="w-full h-full text-white"></ion-icon>
             </button>
+        </div>
+
+        <div class="flex bg-white h-[4rem] w-full items-center justify-center px-[1rem] rounded">
+            <button class="h-[27px] w-[27px] mr-2">
+                <ion-icon name="radio-button-off-sharp" class="w-full h-full"></ion-icon>
+            </button>
+            <input type="text" placeholder="Create a new todo..." class="w-full h-full px-6 outline-none">
+        </div>
+
+        <div>
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] rounded-t border-b-[2px] border-[#E3E4F1]">
+                <div class="flex">
+                    <button class="h-[25px] w-[25px] mr-2">
+                        <img src="./assets/img/Group 4.svg" alt="">
+                    </button>
+                    <h2 class="line-through font-medium text-[#D1D2DA]">Complete online JavaScript course</h2>
+                </div>
+                <button>
+                    <ion-icon name="close-outline" class="w-[27px] h-[27px] text-[#494C6B] font-light"></ion-icon>
+                </button>
+            </div>
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] border-b-[2px] border-[#E3E4F1]">
+                <div class="flex">
+                    <button class="h-[25px] w-[25px] mr-2">
+                        <ion-icon name="radio-button-off-outline" class="w-full h-full"></ion-icon>
+                    </button>
+                    <h2 class="font-medium text-[#494C6B]">Jog around the park 3x</h2>
+                </div>
+                <button class="w-[25px] h-[25px]">
+                    <ion-icon name="close-outline" class="w-full h-full text-[#494C6B] font-light"></ion-icon>
+                </button>
+            </div>
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] border-b-[2px] border-[#E3E4F1]">
+                <div class="flex">
+                    <button class="h-[25px] w-[25px] mr-2">
+                        <ion-icon name="radio-button-off-outline" class="w-full h-full"></ion-icon>
+                    </button>
+                    <h2 class="font-medium text-[#494C6B]">10 minutes meditation</h2>
+                </div>
+                <button class="h-[25px] w-[25px]">
+                    <ion-icon name="close-outline" class="w-full h-full text-[#494C6B] font-light"></ion-icon>
+                </button>
+            </div>
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] border-b-[2px] border-[#E3E4F1]">
+                <div class="flex">
+                    <button class="h-[25px] w-[25px] mr-2">
+                        <ion-icon name="radio-button-off-outline" class="w-full h-full"></ion-icon>
+                    </button>
+                    <h2 class="font-medium text-[#494C6B]">Read for 1 hour</h2>
+                </div>
+                <button class="h-[25px] w-[25px]">
+                    <ion-icon name="close-outline" class="w-full h-full text-[#494C6B] font-light"></ion-icon>
+                </button>
+            </div>
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] border-b-[2px] border-[#E3E4F1]">
+                <div class="flex">
+                    <button class="h-[25px] w-[25px] mr-2">
+                        <ion-icon name="radio-button-off-outline" class="w-full h-full"></ion-icon>
+                    </button>
+                    <h2 class="font-medium text-[#494C6B]">Pick up groceries</h2>
+                </div>
+                <button class="h-[25px] w-[25px]">
+                    <ion-icon name="close-outline" class="w-full h-full text-[#494C6B] font-light"></ion-icon>
+                </button>
+            </div>
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] border-b-[2px] border-[#E3E4F1]">
+                <div class="flex">
+                    <button class="h-[25px] w-[25px] mr-2">
+                        <ion-icon name="radio-button-off-outline" class="w-full h-full"></ion-icon>
+                    </button>
+                    <h2 class="font-medium text-[#494C6B]">Complete Todo App on Frontend Mentor</h2>
+                </div>
+                <button class="h-[25px] w-[25px]">
+                    <ion-icon name="close-outline" class="w-full h-full text-[#494C6B] font-light"></ion-icon>
+                </button>
+            </div>
         </div>
 
     </section>
