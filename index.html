@@ -13,23 +13,23 @@
 <body class=" w-screen h-screen overflow-x-hidden bg-[#e7e7e7] flex justify-center">
     <div class="w-full h-[15rem] bg-[url(./assets/img/Bg.svg)] bg-cover">
     </div>
-    <section class="absolute bg-slate-500 w-[90%] h-[80%] top-[6rem] md:w-[50rem]">
-        <div class="flex w-full h-[3rem] justify-between items-center">
+    <section class="absolute w-[90%] h-[80%] top-[8rem] md:w-[50rem]">
+        <div class="flex w-full h-[3rem] justify-between items-center mb-[2rem]">
             <h1 class="text-3xl uppercase tracking-[1rem] font-semibold text-white">todo</h1>
             <button class="w-[40px] h-[40px]">
                 <ion-icon name="moon-sharp" class="w-full h-full text-white"></ion-icon>
             </button>
         </div>
 
-        <div class="flex bg-white h-[4rem] w-full items-center justify-center px-[1rem] rounded">
+        <div class="flex bg-white h-[4rem] w-full items-center justify-center px-[1rem] rounded-lg mb-[2rem]">
             <button class="h-[27px] w-[27px] mr-2">
                 <ion-icon name="radio-button-off-sharp" class="w-full h-full"></ion-icon>
             </button>
-            <input type="text" placeholder="Create a new todo..." class="w-full h-full px-6 outline-none">
+            <input type="text" placeholder="Create a new todo..." class="w-full h-full px-6 outline-none font-medium text-[18px]">
         </div>
 
-        <div>
-            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] rounded-t border-b-[2px] border-[#E3E4F1]">
+        <div class="mb-[3rem]">
+            <div class="flex bg-white h-[4rem] w-full items-center justify-between px-[1rem] rounded-t-lg border-b-[2px] border-[#E3E4F1]">
                 <div class="flex">
                     <button class="h-[25px] w-[25px] mr-2">
                         <img src="./assets/img/Group 4.svg" alt="">
@@ -95,7 +95,23 @@
                     <ion-icon name="close-outline" class="w-full h-full text-[#494C6B] font-light"></ion-icon>
                 </button>
             </div>
+            <div class="flex items-center justify-between rounded-b-lg px-[20px] text-[#D1D2DA] font-medium bg-white h-[4rem]">
+                <span>5 items left</span>
+                <div class="items-center justify-between px-[70px] text-[#9495A5] font-semibold bg-white h-[4rem] w-[50%] hidden lg:flex">
+                    <a href="#" class="text-[#3A7CFD]">All</a>
+                    <a href="#" class="hover:text-[#3A7CFD]">Active</a>
+                    <a href="#" class="hover:text-[#3A7CFD]">Completed</a>
+                </div
+                <span>Clear Completed</span>
+            </div>
         </div>
+
+        <div class="flex items-center justify-between px-[70px] text-[#9495A5] font-semibold bg-white h-[4rem] ">
+            <a href="#" class="text-[#3A7CFD]">All</a>
+            <a href="#" class="hover:text-[#3A7CFD]">Active</a>
+            <a href="#" class="hover:text-[#3A7CFD]">Completed</a>
+        </div>
+        <p class="text-[#9495A5] text-center font-bold text-lg mt-[1rem]">Drag and drop to reorder list</p>
 
     </section>
 
